@@ -1,7 +1,10 @@
 <h2 id='title'>editable-menu</h2> <br/>
 
 {{#each items}}
-   {{this.title}} <br/>
+    {{#link-to 'editItem' this}}
+        {{this.title}}
+    {{/link-to}}
+    <br/>
 {{/each}}
 
 <br/> <br/>
