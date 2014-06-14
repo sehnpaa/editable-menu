@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
     this.resource('index', {path: '/'});
-    this.resource('editItem', {path: '/editItem/:item_id'});
+    this.resource('edititem', {path: '/edititem/:item_id'});
 });
 
 export default Router;
